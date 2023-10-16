@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_qls"
+            android:title="Quản lý sách"
+            android:icon="@drawable/ic_book"/>
+        <item android:id="@+id/nav_qlls"
+            android:title="Quản lý loại sách"
+            android:icon="@drawable/ic_lib_book"/>
+        <item android:id="@+id/nav_qlpm"
+            android:title="Quản lý phiếu mượn"
+            android:icon="@drawable/ic_phieumuon"/>
+        <item android:id="@+id/nav_qltv"
+            android:title="Quản lý thành viên"
+            android:icon="@drawable/ic_qltv"/>
+    </group>
+
+    <item android:title="Thống kê">
+        <menu>
+            <item android:id="@+id/nav_top"
+                android:title="10 sách mượn nhiều nhất"
+                android:icon="@drawable/ic_top"/>
+            <item android:id="@+id/nav_doanhthu"
+                android:title="Doanh thu"
+                android:icon="@drawable/ic_doanhthu"/>
+        </menu>
+    </item>
+
+    <item android:title="Người dùng">
+        <menu>
+            <item android:id="@+id/nav_adduser"
+                android:title="Thêm người dùng"
+                android:icon="@drawable/ic_user"/>
+            <item android:id="@+id/nav_doimatkhau"
+                android:title="Đổi mật khẩu"
+                android:icon="@drawable/ic_pass"/>
+            <item android:id="@+id/nav_dangxuat"
+                android:title="Đăng xuất"
+                android:icon="@drawable/ic_exit"/>
+        </menu>
+    </item>
+</menu>

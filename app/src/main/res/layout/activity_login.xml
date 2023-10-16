@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:text="Chào mừng bạn,"
+        android:textColor="#EDCA2F"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginBottom="100dp"
+        android:text="mời đăng nhập"
+        android:textColor="#EDCA2F"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/edt_login_ten"
+            android:layout_width="320dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/custom_button"
+            android:hint="Tên đăng nhập"
+            android:paddingLeft="15dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/edt_login_matkhau"
+            android:layout_width="320dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/custom_button"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:paddingLeft="10dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/remember_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Nhớ mật khẩu"
+            android:textColor="#FDD835"
+            android:textSize="15sp"
+            android:textStyle="italic|bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="320dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="20dp"
+        android:background="#039BE5"
+        android:text="Login"
+        app:backgroundTint="@null" />
+
+</LinearLayout>

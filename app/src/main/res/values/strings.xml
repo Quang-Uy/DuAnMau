@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quan ly thu vien</string>
+
+    <string name="nav_qls">Quản lý sách</string>
+    <string name="nav_qlls">Quản lý loại sách</string>
+    <string name="nav_qlpm">Quản lý phiếu mượn</string>
+    <string name="nav_qltv">Quản lý thành viên</string>
+    <string name="nav_top">10 sách mượn nhiều nhất</string>
+    <string name="nav_doanhthu">Doanh thu</string>
+    <string name="nav_adduser">Thêm người dùng</string>
+    <string name="nav_doimatkhau">Đổi mật khẩu</string>
+    <string name="nav_dangxuat">Đăng xuất</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+</resources>

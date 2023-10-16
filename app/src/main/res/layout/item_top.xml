@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    android:background="#628E90">
+
+    <TextView
+        android:id="@+id/tvSach"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="4"
+        android:textSize="16dp"
+        android:text="maLoaiSach"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/tvSL"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="tenLS"
+        android:textColor="#FDD835"/>
+
+</LinearLayout>

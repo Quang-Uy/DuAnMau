@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="#E892C0">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Quản lý thành viên"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/edt_MaTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Không nhập mã thành viên"/>
+
+        <EditText
+            android:id="@+id/edt_TenTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên thành viên"/>
+
+        <EditText
+            android:id="@+id/edt_NamSinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập năm sinh"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_addTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#026137"
+                android:layout_marginHorizontal="20dp"
+                android:textAllCaps="true"
+                android:text="Lưu"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btn_huyTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2196F3"
+                android:layout_marginHorizontal="20dp"
+                android:textAllCaps="true"
+                android:text="Hủy"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
